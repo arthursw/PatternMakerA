@@ -3,11 +3,16 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-
+import { SymbolComponent } from './symbol/symbol.component';
+import { GuiComponent } from './gui/gui.component';
+import { CanvasComponent } from './canvas/canvas.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SymbolComponent,
+    GuiComponent,
+    CanvasComponent
   ],
   imports: [
     BrowserModule
